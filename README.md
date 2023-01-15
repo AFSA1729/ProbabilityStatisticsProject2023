@@ -1,2 +1,7 @@
 # ProbabilityStatisticsProject2021
-Probability Statistics Project 2021
+
+Ashkan Majidi
+
+Hamidreza Alipour
+
+Romina Noubahari
