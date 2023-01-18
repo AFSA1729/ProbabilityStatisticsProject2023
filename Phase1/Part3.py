@@ -1,3 +1,5 @@
+import itertools
+
 z1 = [1, 1, 1, 2, 3, 3, 2, 3, 2]
 z2 = [1, 1, 3, 2, 3, 1, 2, 3, 2]
 x = len(z1)
@@ -16,7 +18,13 @@ def hamming(z1, z2):
 
 print(hamming(z1, z2))
 
-# 5
-# def min_hamming(z1,z2):
-#     ans = 1e10
-#
+
+def minimum_of_hamming(z1, z2):
+    perms = list(itertools.permutations(z2))
+    all_hamming_lengths = []
+    for i in range(0, len(perms)):
+        all_hamming_lengths.append(hamming(z1, perms[i]))
+    return min(all_hamming_lengths)
+
+
+print(minimum_of_hamming(z1, z2))
