@@ -17,4 +17,6 @@ def hamming(z1, z2):
 print(hamming(z1, z2))
 
 # 5
-
+# def min_hamming(z1,z2):
+#     ans = 1e10
+#
