@@ -4,6 +4,7 @@ x = len(z1)
 print(x)
 
 
+# 4
 def hamming(z1, z2):
     ans = 0
     n = len(z1)
@@ -14,3 +15,6 @@ def hamming(z1, z2):
 
 
 print(hamming(z1, z2))
+
+# 5
+
